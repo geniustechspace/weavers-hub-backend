@@ -12,7 +12,7 @@ def start_app():
     try:
         initialize_app(cred)
         app = FastAPI(
-            title="WEAVERS HUB - BACKEND SERVICE",
+            title="Weavers Hub",
             description="Backend service for weavers-hub, an e-commence mobile app for local/weaving products",
             version="0.1.0",
         )
