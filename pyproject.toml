@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "weavers_hub_backend"
+version = "0.1.0"
+description = "Backend service for weavers-hub, an e-commence mobile app for local/weaving products"
+authors = ["DOMINIC MAABOBRA TUOLONG <tuolongdominic@gmail.com>"]
+license = "BSD 3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.112.2"
+uvicorn = "^0.30.6"
+firebase-admin = "^6.5.0"
+python-multipart = "^0.0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
